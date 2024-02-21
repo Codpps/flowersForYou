@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="css/message.css"
+            type="text/css"
+            media="all"
+        />
+        <title></title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>For You Arfaa</h1>
+            <div class="envelope-wrapper">
+                <div class="envelope">
+                    <div class="letter">
+                        <div class="text">
+                            <strong>Haii</strong>
+                            <p>gift for u arfaa</p>
+                            <br />
+                            <button class="button"> <a href="flower.html">
+                                <span>Buka Hadiah</span>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="heart"></div>
+            </div>
+        </div>
+        <script>
+            const envelope = document.querySelector(".envelope-wrapper");
+            envelope.addEventListener("click", () => {
+                envelope.classList.toggle("flap");
+            });
+        </script>
+    </body>
+</html>
